@@ -11,34 +11,34 @@ void population () {
   rectHeight = height*1/15 ;
   
   //resetButton
-  rectX2 = width*6/8 ;
-  rectY2 = height*1/14 ;
-  rectWidth2 = width*1/14 ;
+  rectX2 = width*5.5/8 ;
+  rectY2 = height*1/14;
+  rectWidth2 = width*3/18 ;
   rectHeight2 = height*1/15;
   
   //musicBar
-  rectX3 =  ;
-  rectY3 =  ;
-  rectWidth3 =  ;
-  rectHeight3 =  ;
-  
+  rectX3 = width*2.75/4 ;
+  rectY3 = height*1.5/6 ;
+  rectWidth3 = width*4.5/18 ;
+  rectHeight3 = height*2/15 ;
+    
   //imageBox1
-  rectX4 =  ;
-  rectY4 =  ;
-  rectWidth4 =  ;
-  rectHeight4 =  ;
-  
+  rectX4 = width*2.8/4 ;
+  rectY4 = height*2/4 ;
+  rectWidth4 = width*4/18;
+  rectHeight4 = height*3/15 ;
+    
   //imageBox2
-  rectX5 =  ;
-  rectY5 =  ;
-  rectWidth5 =  ;
-  rectHeight5 =  ;
+  rectX5 = width*2.8/4 ;
+  rectY5 = height*3/4 ;
+  rectWidth5 = width*4/18 ;
+  rectHeight5 = height*3/15 ;
   
   //eraserBoxes
-  rectX6 =  ;
-  rectY6 =  ;
-  rectWidth6 =  ;
-  rectHeight6 =  ;
+  rectX6 = width ;
+  rectY6 = height ;
+  rectWidth6 = width ;
+  rectHeight6 = height ;
   
   //lineFeatures
   rectX7 =  ;
@@ -52,4 +52,13 @@ void population () {
    rectWidth8 =  ;
    rectHeight8 =  ;
   
+  
+  
+
 }
+ 
+
+
+
+ 
+ 
