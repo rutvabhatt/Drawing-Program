@@ -2,7 +2,7 @@ void population () {
   canvasX = width*0 ;
   canvasY = height*0 ;
   canvasWidth = width*2/3 ;
-  canvasHeight = height*2/3 ;
+  canvasHeight = height*2.2/3 ;
   
   //quitButton
   rectX = width*7/8 ;
@@ -35,26 +35,22 @@ void population () {
   rectHeight5 = height*3/15 ;
   
   //eraserBoxes
-  rectX6 = width ;
-  rectY6 = height ;
-  rectWidth6 = width ;
-  rectHeight6 = height ;
+  rectX6 = width*2.25/5 ;
+  rectY6 = height*3.75/5 ;
+  rectWidth6 = width*3.9/18 ;
+  rectHeight6 = height*3/15 ;
   
   //lineFeatures
-  rectX7 =  ;
-  rectY7 =  ;
-  rectWidth7 =  ;
-  rectHeight7 =  ;
+  rectX7 = width ;
+  rectY7 = height ;
+  rectWidth7 = width ;
+  rectHeight7 = height ;
    
    //colorOptions
-   rectX8 =  ;
-   rectY8 =  ;
-   rectWidth8 =  ;
-   rectHeight8 =  ;
-  
-  
-  
-
+   rectX8 = width ;
+   rectY8 = height ;
+   rectWidth8 = width ;
+   rectHeight8 = height ;
 }
  
 
