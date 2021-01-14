@@ -21,6 +21,11 @@ Boolean draw = false;
 PFont titleFont;
 String buttonText = "X" ;
 String buttonText2 = "Reset" ;
+String buttonText3 = "Image 1" ;
+String buttonText4 = "Line Art" ;
+String buttonText5 = "Erasers" ;
+String buttonText6 = "Palette" ;
+//
 
 void setup() {
   fullScreen( displayWidth & displayHeight );
@@ -66,6 +71,11 @@ void draw () {
   }
 } //End draw
 
+void keyPressed() {
+  
+} //End keyPressed
+
+
 void mousePressed() {
   //quitButton
   if ( mouseX>rectX && mouseX<rectX+rectWidth && mouseY>rectY && mouseY<rectY+rectHeight ) exit();
@@ -78,4 +88,4 @@ void mousePressed() {
     }
   }
   //
-}//End mousePressed()
+}//End mousePressed

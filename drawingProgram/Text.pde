@@ -23,6 +23,35 @@ void textDraw2() {
   fill(255); 
 }//End textDraw2
 
+//imageBox1
+void textDraw3() { 
+  textAlign(CENTER, TOP);
+  text(buttonText3, rectX3, rectY3, rectWidth3, rectHeight3);
+  fill(255);
+} //End textDraw3
+
+//imageBox2
+void textDraw4() { 
+  textAlign(CENTER, TOP);
+  text(buttonText4, rectX4, rectY4, rectWidth4, rectHeight4);
+  fill(255);
+} //End textDraw4
+
+//eraserBox
+void textDraw5() { 
+  textAlign(CENTER, TOP);
+  text(buttonText5, rectX5, rectY5, rectWidth5, rectHeight5);
+  fill(255);
+} //End textDraw5
+
+//colorPalette
+void textDraw6() { 
+  textAlign(CENTER, TOP);
+  text(buttonText6, rectX6, rectY6, rectWidth6, rectHeight6);
+  fill(255);
+} //End textDraw6
+
+
 
 
 //

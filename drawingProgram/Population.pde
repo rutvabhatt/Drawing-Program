@@ -34,7 +34,7 @@ void population () {
   rectWidth5 = width*4/18 ;
   rectHeight5 = height*3/15 ;
   
-  //eraserBoxes
+  //eraserBox
   rectX6 = width*2.25/5 ;
   rectY6 = height*3.75/5 ;
   rectWidth6 = width*3.9/18 ;
