@@ -51,4 +51,10 @@ void population () {
   rectY8 = height*5.25/7 ;
   rectWidth8 = width*4.5/18 ;
   rectHeight8 = height*3/15 ;
+  
+  //playPauseButton
+  playPauseX = width*9/11 ;
+  playPauseY = height*6/9 ;
+  playPauseDiameter = height/5 ;
+  
 }

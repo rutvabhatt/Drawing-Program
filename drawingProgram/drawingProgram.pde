@@ -13,6 +13,7 @@ float rectX5, rectY5, rectWidth5, rectHeight5;
 float rectX6, rectY6, rectWidth6, rectHeight6;
 float rectX7, rectY7, rectWidth7, rectHeight7;
 float rectX8, rectY8, rectWidth8, rectHeight8;
+float playPauseX, playPauseY, playPauseDiameter;
 //
 int rectX, rectY, rectWidth, rectHeight, outside;
 Boolean draw = false;
