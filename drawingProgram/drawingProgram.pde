@@ -2,6 +2,9 @@
 color ink, buttonColor, gray = #BFBFBF, black = #000000, red = #D83737, white = #FFFFFF, resetWhite = #FFFFFF;
 color blue = #6AE6F5 ;
 //
+PImage picX, picY, picWidth, picHeight;
+PImage picsX2, picY2, picWidth2, picHeight2;
+//
 float canvasX, canvasY, canvasWidth, canvasHeight;
 float rectX2, rectY2, rectWidth2, rectHeight2;
 float rectX3, rectY3, rectWidth3, rectHeight3;
