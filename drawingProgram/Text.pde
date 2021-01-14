@@ -1,27 +1,28 @@
 void textSetup () {
   println("Start of Console");
-  titleFont = createFont ("BerlinSansFB", 55);
+  titleFont = createFont ("BookmanOldStyle-Bold", 55);
 } //End textSetup
 
 void textDrawPre() {
   fill(blue); 
-  textAlign (CENTER, CENTER);
-  //Values: [LEFT | CENTER | RIGHT] & [TOP | CENTER | BOTTOM | BASELINE]
-  textFont(titleFont, 35);
+  textAlign (CENTER, CENTER); //[LEFT | CENTER | RIGHT] & [TOP | CENTER | BOTTOM | BASELINE]
+  textFont(titleFont, 50);
 }//End textDrawPre
 
 //quitButton
-void textDraw1() { 
+void textDraw() { 
   textDrawPre();
-  text(rectX, rectY, rectWidth, rectHeight);
+  text(buttonText, rectX, rectY, rectWidth, rectHeight);
   fill(255); 
-}//End textDraw1
+}//End textDraw
 
 //resetButton
 void textDraw2() { 
   textDrawPre();
-  text(rectX2, rectY2, rectWidth2, rectHeight2);
+  text(buttonText2, rectX2, rectY2, rectWidth2, rectHeight2);
   fill(255); 
-}//End textDraw
+}//End textDraw2
+
+
 
 //
