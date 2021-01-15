@@ -50,8 +50,3 @@ void textDraw6() {
   text(buttonText6, rectX6, rectY6, rectWidth6, rectHeight6);
   fill(255);
 } //End textDraw6
-
-
-
-
-//

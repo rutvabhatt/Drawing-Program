@@ -13,6 +13,19 @@ float rectX5, rectY5, rectWidth5, rectHeight5;
 float rectX6, rectY6, rectWidth6, rectHeight6;
 float rectX7, rectY7, rectWidth7, rectHeight7;
 float rectX8, rectY8, rectWidth8, rectHeight8;
+float colorBoxX, colorBoxY, colorBoxWidth, colorBoxHeight;
+float colorBoxX2, colorBoxY2, colorBoxWidth2, colorBoxHeight2;
+float colorBoxX3, colorBoxY3, colorBoxWidth3, colorBoxHeight3;
+float colorBoxX4, colorBoxY4, colorBoxWidth4, colorBoxHeight4;
+float colorBoxX5, colorBoxY5, colorBoxWidth5, colorBoxHeight5;
+float colorBoxX6, colorBoxY6, colorBoxWidth6, colorBoxHeight6;
+float colorBoxX7, colorBoxY7, colorBoxWidth7, colorBoxHeight7;
+float colorBoxX8, colorBoxY8, colorBoxWidth8, colorBoxHeight8;
+float colorBoxX9, colorBoxY9, colorBoxWidth9, colorBoxHeight9;
+float colorBoxX10, colorBoxY10, colorBoxWidth10, colorBoxHeight10;
+float colorBoxX11, colorBoxY11, colorBoxWidth11, colorBoxHeight11;
+float colorBoxX12, colorBoxY12, colorBoxWidth12, colorBoxHeight12;
+//
 float playPauseX, playPauseY, playPauseDiameter;
 //
 int rectX, rectY, rectWidth, rectHeight, outside;
@@ -55,6 +68,9 @@ void draw () {
   rect(rectX7, rectY7, rectWidth7, rectHeight7);
   rect(rectX8, rectY8, rectWidth8, rectHeight8);
   //
+  fill(buttonColor);
+  rect(rectX, rectY, rectWidth, rectHeight);
+  fill(resetWhite);
   //quitButton
   println(mouseX, mouseY); 
   if (mouseX>rectX && mouseX<rectX+rectWidth && mouseY>rectY && mouseY<rectY+rectHeight) { 
@@ -62,17 +78,14 @@ void draw () {
   } else { 
     buttonColor = green;
   }
-  fill(buttonColor);
-  rect(rectX, rectY, rectWidth, rectHeight);
-  fill(resetWhite);
+  //
   if (draw = true) {
-    line(mouseX, mouseY, pmouseX, pmouseY);
+  line(mouseX, mouseY, pmouseX, pmouseY);
     //
   }
 } //End draw
 
 void keyPressed() {
-  
 } //End keyPressed
 
 
