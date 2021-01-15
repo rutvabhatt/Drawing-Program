@@ -54,12 +54,12 @@ void population () {
   
   //Colors:
     //#1
-    colorBoxX =  ;
-    colorBoxY =  ;
-    colorBoxWidth =  ;
-    colorBoxHeight =  ;
+    colorBoxX = width*3/30 ;
+    colorBoxY = height*5/30 ;
+    colorBoxWidth = width*1/25 ;
+    colorBoxHeight = height*1/25 ;
     
-    //#2
+     //#2
     colorBoxX2 =  ;
     colorBoxY2 =  ;
     colorBoxWidth2 =  ; 
@@ -124,6 +124,8 @@ void population () {
     colorBoxY12 =  ;
     colorBoxWidth12 =  ;
     colorBoxHeight12 =  ;
+    
+   
   
   //playPauseButton
   playPauseX = width*9/11 ;
