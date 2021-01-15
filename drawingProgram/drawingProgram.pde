@@ -2,6 +2,8 @@
 color ink, buttonColor, gray = #BFBFBF, black = #000000, red = #D83737, white = #FFFFFF, resetWhite = #FFFFFF;
 color blue = #252FD6, green = #C2ED94, purple = #9498ED;
 //
+int rectX, rectY, rectWidth, rectHeight, outside;
+Boolean draw = false;
 PImage picX, picY, picWidth, picHeight;
 PImage picsX2, picY2, picWidth2, picHeight2;
 //
@@ -13,6 +15,7 @@ float rectX5, rectY5, rectWidth5, rectHeight5;
 float rectX6, rectY6, rectWidth6, rectHeight6;
 float rectX7, rectY7, rectWidth7, rectHeight7;
 float rectX8, rectY8, rectWidth8, rectHeight8;
+//
 float colorBoxX, colorBoxY, colorBoxWidth, colorBoxHeight;
 float colorBoxX2, colorBoxY2, colorBoxWidth2, colorBoxHeight2;
 float colorBoxX3, colorBoxY3, colorBoxWidth3, colorBoxHeight3;
@@ -26,18 +29,14 @@ float colorBoxX10, colorBoxY10, colorBoxWidth10, colorBoxHeight10;
 float colorBoxX11, colorBoxY11, colorBoxWidth11, colorBoxHeight11;
 float colorBoxX12, colorBoxY12, colorBoxWidth12, colorBoxHeight12;
 //
+float rectX9, rectY9, rectWidth9, rectHeight9;
+float rectX10, rectY10, rectWidth10, rectHeight10;
+float rectX11, rectY11, rectWidth11, rectHeight11;
+float rectX12, rectY12, rectWidth12, rectHeight12;
+float rectX13, rectY13, rectWidth13, rectHeight13;
+float rectX14, rectY14, rectWidth14, rectHeight14;
+//
 float playPauseX, playPauseY, playPauseDiameter;
-//
-int rectX, rectY, rectWidth, rectHeight, outside;
-Boolean draw = false;
-//
-PFont titleFont;
-String buttonText = "X" ;
-String buttonText2 = "Reset" ;
-String buttonText3 = "Image 1" ;
-String buttonText4 = "Line Art" ;
-String buttonText5 = "Erasers" ;
-String buttonText6 = "Palette" ;
 //
 
 void setup() {

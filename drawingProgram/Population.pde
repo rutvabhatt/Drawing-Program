@@ -59,7 +59,7 @@ void population () {
     colorBoxWidth = width*1/25 ;
     colorBoxHeight = height*1/25 ;
     
-     //#2
+    //#2
     colorBoxX2 =  ;
     colorBoxY2 =  ;
     colorBoxWidth2 =  ; 
@@ -124,8 +124,44 @@ void population () {
     colorBoxY12 =  ;
     colorBoxWidth12 =  ;
     colorBoxHeight12 =  ;
+  
+  //eraserThicknesses
+    //#1
+     rectX9 =  ;
+     rectY9 =  ;
+     rectWidth9 =  ;
+     rectHeight9 =  ;
+     
+    //#2
+    rectX10 =  ;
+    rectY10 =  ;
+    rectWidth10 =  ;
+    rectHeight10 =  ;
     
-   
+    //#3
+    rectX11 =  ;
+    rectY11 =  ;
+    rectWidth11 =  ;
+    rectHeight11 =  ;
+    
+  //lineThicknesses
+    //#1
+    rectX12 =  ;
+    rectY12 =  ;
+    rectWidth12 =  ;
+    rectHeight12 =  ;
+    
+    //#2
+    rectX13 =  ;
+    rectY13 =  ;
+    rectWidth13 =  ;
+    rectHeight13 =  ;
+    
+    //#3
+    rectX14 =  ;
+    rectY14 =  ;
+    rectWidth14 =  ;
+    rectHeight14 =  ;
   
   //playPauseButton
   playPauseX = width*9/11 ;
