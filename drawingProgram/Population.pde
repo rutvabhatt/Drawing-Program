@@ -40,92 +40,7 @@ void population () {
   rectWidth6 = width*3.9/18 ;
   rectHeight6 = height*3/15 ;
   
-  //lineFeatures
-  rectX7 = width*1.5/5 ;
-  rectY7 = height*3.75/5;
-  rectWidth7 = width*2/18 ;
-  rectHeight7 = height*3/15 ;
- 
-  //colorPalette
-  rectX8 = width*1/35 ;
-  rectY8 = height*5.25/7 ;
-  rectWidth8 = width*4.5/18 ;
-  rectHeight8 = height*3/15 ;
-  
-  //Colors:
-    //#1
-    colorBoxX = width*3/30 ;
-    colorBoxY = height*5/30 ;
-    colorBoxWidth = width*1/25 ;
-    colorBoxHeight = height*1/25 ;
-    
-    //#2
-    colorBoxX2 =  ;
-    colorBoxY2 =  ;
-    colorBoxWidth2 =  ; 
-    colorBoxHeight2 =  ;
-    
-    //#3
-    colorBoxX3 =  ;
-    colorBoxY3 =  ;
-    colorBoxWidth3 =  ;
-    colorBoxHeight3 =  ;
-    
-    //#4
-    colorBoxX4 =  ;
-    colorBoxY4 =  ;
-    colorBoxWidth4 =  ;
-    colorBoxHeight4 =  ;
-    
-    //#5
-    colorBoxX5 =  ;
-    colorBoxY5 =  ;
-    colorBoxWidth5 =  ;
-    colorBoxHeight5 =  ;
-  
-    //#6
-    colorBoxX6 =  ;
-    colorBoxY6 =  ;
-    colorBoxWidth6 =  ;
-    colorBoxHeight6 =  ;
-    
-    //#7
-    colorBoxX7 =  ;
-    colorBoxY7 =  ;
-    colorBoxWidth7 =  ;
-    colorBoxHeight7 =  ;
-    
-    //#8
-    colorBoxX8 =  ;
-    colorBoxY8 =  ;
-    colorBoxWidth8 =  ;
-    colorBoxHeight8 =  ;
-    
-    //#9
-    colorBoxX9 =  ;
-    colorBoxY9 =  ;
-    colorBoxWidth9 =  ;
-    colorBoxHeight9 =  ;
-    
-    //#10
-    colorBoxX10 =  ;
-    colorBoxY10 =  ;
-    colorBoxWidth10 =  ;
-    colorBoxHeight10 =  ;
-    
-    //#11
-    colorBoxX11 =  ;
-    colorBoxY11 =  ;
-    colorBoxWidth11 =  ;
-    colorBoxHeight11 =  ;
-    
-    //#12
-    colorBoxX12 =  ;
-    colorBoxY12 =  ;
-    colorBoxWidth12 =  ;
-    colorBoxHeight12 =  ;
-  
-  //eraserThicknesses
+   //eraserThicknesses
     //#1
      rectX9 =  ;
      rectY9 =  ;
@@ -144,7 +59,14 @@ void population () {
     rectWidth11 =  ;
     rectHeight11 =  ;
     
-  //lineThicknesses
+  
+  //lineFeatures
+  rectX7 = width*1.5/5 ;
+  rectY7 = height*3.75/5;
+  rectWidth7 = width*2/18 ;
+  rectHeight7 = height*3/15 ;
+  
+    //lineThicknesses
     //#1
     rectX12 =  ;
     rectY12 =  ;
@@ -162,10 +84,18 @@ void population () {
     rectY14 =  ;
     rectWidth14 =  ;
     rectHeight14 =  ;
+ 
+  //colorPalette
+  rectX8 = width*1/35 ;
+  rectY8 = height*5.25/7 ;
+  rectWidth8 = width*4.5/18 ;
+  rectHeight8 = height*3/15 ;
   
   //playPauseButton
   playPauseX = width*9/11 ;
   playPauseY = height*6/9 ;
   playPauseDiameter = height/5 ;
+  
+
   
 }

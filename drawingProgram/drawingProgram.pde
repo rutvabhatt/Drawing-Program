@@ -2,6 +2,19 @@
 color ink, buttonColor, gray = #BFBFBF, black = #000000, red = #D83737, white = #FFFFFF, resetWhite = #FFFFFF;
 color blue = #252FD6, green = #C2ED94, purple = #9498ED;
 //
+color pink = #E5177E; //#1
+color lightPurple = #A650C6; //#2
+color lightBlue = #38AEFA; //#3
+color teal = #85E3DC;//#4
+color periwinkle = #8285DE;//#5
+color lightGreen = #BEEA98;//#6
+color orange = #E39342;//#7
+color cheddar = #E8BC2A;//#8
+color darkPurple = #6F30FA;//#9
+color red2 = #F51625;//#10
+color coral = #DE9682;//#11
+color darkBlue = #2B32E0;//#12
+//
 int rectX, rectY, rectWidth, rectHeight, outside;
 Boolean draw = false;
 PImage picX, picY, picWidth, picHeight;
