@@ -39,15 +39,13 @@ void population () {
   rectY6 = height*3.75/5 ;
   rectWidth6 = width*3.9/18 ;
   rectHeight6 = height*3/15 ;
-
   
   //lineFeatures
   rectX7 = width*1.5/5 ;
   rectY7 = height*3.75/5;
   rectWidth7 = width*2/18 ;
   rectHeight7 = height*3/15 ;
-
- 
+  
   //colorPalette
   rectX8 = width*1/35 ;
   rectY8 = height*5.25/7 ;
