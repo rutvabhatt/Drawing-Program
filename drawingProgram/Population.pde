@@ -39,51 +39,14 @@ void population () {
   rectY6 = height*3.75/5 ;
   rectWidth6 = width*3.9/18 ;
   rectHeight6 = height*3/15 ;
-  
-   //eraserThicknesses
-    //#1
-     rectX9 =  ;
-     rectY9 =  ;
-     rectWidth9 =  ;
-     rectHeight9 =  ;
-     
-    //#2
-    rectX10 =  ;
-    rectY10 =  ;
-    rectWidth10 =  ;
-    rectHeight10 =  ;
-    
-    //#3
-    rectX11 =  ;
-    rectY11 =  ;
-    rectWidth11 =  ;
-    rectHeight11 =  ;
-    
+
   
   //lineFeatures
   rectX7 = width*1.5/5 ;
   rectY7 = height*3.75/5;
   rectWidth7 = width*2/18 ;
   rectHeight7 = height*3/15 ;
-  
-    //lineThicknesses
-    //#1
-    rectX12 =  ;
-    rectY12 =  ;
-    rectWidth12 =  ;
-    rectHeight12 =  ;
-    
-    //#2
-    rectX13 =  ;
-    rectY13 =  ;
-    rectWidth13 =  ;
-    rectHeight13 =  ;
-    
-    //#3
-    rectX14 =  ;
-    rectY14 =  ;
-    rectWidth14 =  ;
-    rectHeight14 =  ;
+
  
   //colorPalette
   rectX8 = width*1/35 ;
