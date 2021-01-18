@@ -97,12 +97,17 @@ void colorBoxes () {
   rect(colorBoxX7, colorBoxY7, colorBoxWidth7, colorBoxHeight7);
   //#8
   fill(cheddar);
+  rect(colorBoxX8, colorBoxY8, colorBoxWidth8, colorBoxHeight8);
   //#9
   fill(darkPurple);
+  rect(colorBoxX9, colorBoxY9, colorBoxWidth9, colorBoxHeight9);
   //#10
   fill(red2);
+  rect(colorBoxX10, colorBoxY10, colorBoxWidth10, colorBoxHeight10);
   //#11
   fill(coral);
+  rect(colorBoxX11, colorBoxY11, colorBoxWidth11, colorBoxHeight11);
   //#12
   fill(darkBlue);
+  rect(colorBoxX12, colorBoxY12, colorBoxWidth12, colorBoxHeight12);
 } //End of colorBoxes
