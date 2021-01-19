@@ -1,4 +1,4 @@
-void eraserSetup () {
+void eraser () {
   //eraserThicknesses
   //#1
   rectX9 = width*12/20 ;
@@ -17,4 +17,7 @@ void eraserSetup () {
   rectY11 = height*3/30 ;
   rectWidth11 = width*3/10 ;
   rectHeight11 = height*3/10 ;
+}
+
+void eraserSetup () {
 }
