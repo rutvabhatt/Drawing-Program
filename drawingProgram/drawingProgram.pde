@@ -56,6 +56,7 @@ void setup() {
   fullScreen( displayWidth & displayHeight );
   population();
   textSetup();
+  reset();
   ink = black;
   //
 } //End setup
@@ -74,9 +75,18 @@ void draw () {
   //
   fill(green);
   rect(rectX3, rectY3, rectWidth3, rectHeight3);
+  textDraw3();
+  //
+  fill(green);
   rect(rectX4, rectY4, rectWidth4, rectHeight4);
+  //
+  fill(green);
   rect(rectX5, rectY5, rectWidth5, rectHeight5);
+  //
+  fill(green);
   rect(rectX6, rectY6, rectWidth6, rectHeight6);
+  //
+  fill(green);
   rect(rectX7, rectY7, rectWidth7, rectHeight7);
   rect(rectX8, rectY8, rectWidth8, rectHeight8);
   //
@@ -90,10 +100,10 @@ void draw () {
   } else { 
     buttonColor = green;
   }
-  //
-  if (draw = true) {
+  //Paint
+  if (draw == true) {
+  fill(ink);
   line(mouseX, mouseY, pmouseX, pmouseY);
-    //
   }
 } //End draw
 
@@ -105,6 +115,9 @@ void mousePressed() {
   //quitButton
   if ( mouseX>rectX && mouseX<rectX+rectWidth && mouseY>rectY && mouseY<rectY+rectHeight ) exit();
   //
+  //reset
+  if ( mouseX>rectX2 && mouseX<rectX2+rectWidth2 && mouseY>rectY2 && mouseY<rectY2+rectHeight ) reset();
+  //
   if ( mouseX>canvasX && mouseX<canvasX+canvasWidth && mouseY>canvasY && mouseY<canvasY+canvasHeight ) {
     if (draw == false ) {
       draw = true;
@@ -112,5 +125,4 @@ void mousePressed() {
       draw = false;
     }
   }
-  //
 }//End mousePressed

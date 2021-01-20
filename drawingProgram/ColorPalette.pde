@@ -74,7 +74,7 @@ void colorPaletteSetup () {
   
 } //End of colorPaletteSetup 
 
-void colorBoxes () {
+void drawColorBoxes () {
   //#1
   fill(pink);
   rect(colorBoxX, colorBoxY, colorBoxWidth, colorBoxHeight);

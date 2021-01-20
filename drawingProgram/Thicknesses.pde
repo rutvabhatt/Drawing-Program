@@ -23,8 +23,7 @@ void lineThicknessesSetup () {
 }
 
 void lineThicknessMousePressed () {
-  if () {
+
   }
   
   
-}

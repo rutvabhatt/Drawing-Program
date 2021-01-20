@@ -3,8 +3,8 @@ String buttonText = "X" ;
 String buttonText2 = "Reset" ;
 String buttonText3 = "Image 1" ;
 String buttonText4 = "Line Art" ;
-String buttonText5 = "Erasers" ;
-String buttonText6 = "Palette" ;
+String buttonText6 = "Erasers" ;
+String buttonText8 = "Palette" ;
 //
 //[LEFT | CENTER | RIGHT] & [TOP | CENTER | BOTTOM | BASELINE]
 //
@@ -16,14 +16,14 @@ void textSetup () {
 void textDrawPre() {
   fill(blue); 
   textAlign (CENTER, CENTER); 
-  textFont(titleFont, 55);
+  textFont(titleFont, 60);
 }//End textDrawPre
 //
 //quitButton
 void textDraw() { 
   textDrawPre();
   text(buttonText, rectX, rectY, rectWidth, rectHeight);
-  fill(255); 
+  fill(200); 
 }//End textDraw
 //
 //resetButton
@@ -35,28 +35,28 @@ void textDraw2() {
 //
 //imageBox1
 void textDraw3() { 
-  textAlign(CENTER, TOP);
-  text(buttonText3, rectX3, rectY3, rectWidth3, rectHeight3);
+  textDrawPre();
+  text(buttonText4, rectX4, rectY4, rectWidth4, rectHeight4);
   fill(255);
 } //End textDraw3
 //
 //imageBox2
-void textDraw4() { 
-  textDraw3();
-  text(buttonText4, rectX4, rectY4, rectWidth4, rectHeight4);
+void textDraw5() { 
+  textDrawPre();
+  text(buttonText6, rectX6, rectY6, rectWidth6, rectHeight6);
   fill(255);
 } //End textDraw4
 //
 //eraserBox
-void textDraw5() { 
-  textDraw3();
-  text(buttonText5, rectX5, rectY5, rectWidth5, rectHeight5);
-  fill(255);
-} //End textDraw5
-//
-//colorPalette
 void textDraw6() { 
-  textDraw3();
+  textDrawPre();
   text(buttonText6, rectX6, rectY6, rectWidth6, rectHeight6);
   fill(255);
 } //End textDraw6
+//
+//colorPalette
+void textDraw8() { 
+  textDrawPre();
+  text(buttonText8, rectX8, rectY8, rectWidth8, rectHeight8);
+  fill(255);
+} //End textDraw8
