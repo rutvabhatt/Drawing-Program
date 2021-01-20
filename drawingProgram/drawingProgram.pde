@@ -63,6 +63,7 @@ void setup() {
 
 void draw () {
   background(purple);
+  fill(white);
   rect(canvasX, canvasY, canvasWidth, canvasHeight);
   //
   fill(green);
