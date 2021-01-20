@@ -18,6 +18,3 @@ void eraser () {
   rectWidth11 = width*3/10 ;
   rectHeight11 = height*3/10 ;
 }
-
-void eraserSetup () {
-}

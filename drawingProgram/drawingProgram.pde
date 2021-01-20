@@ -75,24 +75,38 @@ void draw () {
   //
   fill(green);
   rect(rectX3, rectY3, rectWidth3, rectHeight3);
-  textDraw3();
   //
   fill(green);
   rect(rectX4, rectY4, rectWidth4, rectHeight4);
+  textDraw4();
   //
   fill(green);
   rect(rectX5, rectY5, rectWidth5, rectHeight5);
+  textDraw5();
   //
   fill(green);
   rect(rectX6, rectY6, rectWidth6, rectHeight6);
+  textDraw6();
   //
   fill(green);
   rect(rectX7, rectY7, rectWidth7, rectHeight7);
   rect(rectX8, rectY8, rectWidth8, rectHeight8);
+  textDraw8();
   //
   fill(buttonColor);
   rect(rectX, rectY, rectWidth, rectHeight);
   fill(resetWhite);
+  //
+  fill(white);
+  rect(rectX9, rectY9, rectWidth9, rectHeight9);
+  rect(rectX10, rectY10, rectWidth10, rectHeight10);
+  rect(rectX11, rectY11, rectWidth11, rectHeight11);
+  //
+  fill(black);
+  rect(rectX12, rectY12, rectWidth12, rectHeight12);
+  rect(rectX13, rectY13, rectWidth13, rectHeight13);
+  rect(rectX14, rectY14, rectWidth14, rectHeight14);
+  //
   //quitButton
   println(mouseX, mouseY); 
   if (mouseX>rectX && mouseX<rectX+rectWidth && mouseY>rectY && mouseY<rectY+rectHeight) { 
@@ -102,8 +116,8 @@ void draw () {
   }
   //Paint
   if (draw == true) {
-  fill(ink);
-  line(mouseX, mouseY, pmouseX, pmouseY);
+    fill(ink);
+    line(mouseX, mouseY, pmouseX, pmouseY);
   }
 } //End draw
 
@@ -118,6 +132,7 @@ void mousePressed() {
   //reset
   if ( mouseX>rectX2 && mouseX<rectX2+rectWidth2 && mouseY>rectY2 && mouseY<rectY2+rectHeight ) reset();
   //
+  
   if ( mouseX>canvasX && mouseX<canvasX+canvasWidth && mouseY>canvasY && mouseY<canvasY+canvasHeight ) {
     if (draw == false ) {
       draw = true;
