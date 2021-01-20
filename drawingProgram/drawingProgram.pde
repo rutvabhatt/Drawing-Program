@@ -129,16 +129,16 @@ void keyPressed() {
 void mousePressed() {
   //quitButton
   if ( mouseX>rectX && mouseX<rectX+rectWidth && mouseY>rectY && mouseY<rectY+rectHeight ) exit();
-  //
   //reset
   if ( mouseX>rectX2 && mouseX<rectX2+rectWidth2 && mouseY>rectY2 && mouseY<rectY2+rectHeight ) reset();
   //
-  
   if ( mouseX>canvasX && mouseX<canvasX+canvasWidth && mouseY>canvasY && mouseY<canvasY+canvasHeight ) {
     if (draw == false ) {
       draw = true;
     } else {
       draw = false;
     }
+    
+  if 
   }
 }//End mousePressed
