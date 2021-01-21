@@ -36,4 +36,4 @@ void lineThicknessMousePressed () {
     
   }
 
-}
+} //End of lineThicknessMousePressed
