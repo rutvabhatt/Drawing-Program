@@ -5,40 +5,42 @@ void colorPaletteSetup () {
   colorBoxY = height*5/30 ;
   colorBoxWidth = width*1/25 ;
   colorBoxHeight = height*1/25 ;
-  
+
   //#2
   colorBoxX2 = width*4/30 ;
   colorBoxY2 = height*5/30 ;
   colorBoxWidth2 = width*1/25 ;
   colorBoxHeight2 = height*1/25 ;
-  
+
   //#3
   colorBoxX3 = width*5/30 ;
   colorBoxY3 = height*5/30 ;
   colorBoxWidth3 = width*1/25 ;
   colorBoxHeight3 = height*1/25 ;
-  
+
   //#4
   colorBoxX4 = width*6/30 ;
   colorBoxY4 = height*5/30 ;
   colorBoxWidth4 = height*1/25 ;
   colorBoxHeight4 = width*1/25 ;
-  
+
   //Row 2, #5
   colorBoxX5 = width*3/30 ;
   colorBoxY5 = height*4/30 ;
   colorBoxWidth5 = width*1/25 ;
   colorBoxHeight5 = height*1/25 ;
-  
+
   //#6
   colorBoxX6 = width*4/30 ;
-  colorBoxY6 = height*4/30 ; ;
+  colorBoxY6 = height*4/30 ; 
+  ;
   colorBoxWidth6 = width*1/25 ;
   colorBoxHeight6 = width*1/25 ;
 
   //#7
   colorBoxX7 = width*5/30 ;
-  colorBoxY7 = height*4/30 ; ;
+  colorBoxY7 = height*4/30 ; 
+  ;
   colorBoxWidth7 = width*1/25 ;
   colorBoxHeight7 = height*1/25 ;
 
@@ -71,7 +73,6 @@ void colorPaletteSetup () {
   colorBoxY12 = height*3/30 ;
   colorBoxWidth12 = width*1/25 ;
   colorBoxHeight12 = height*1/25 ;
-  
 } //End of colorPaletteSetup 
 
 void drawColorBoxes () {
