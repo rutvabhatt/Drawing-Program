@@ -28,8 +28,7 @@ void eraserDraw () {
   rect(rectX10, rectY10, rectWidth10, rectHeight10);
   rect(rectX11, rectY11, rectWidth11, rectHeight11);
 }
-
-
+//
 void eraserMousePressed () {
   if (mouseX>eraserX && mouseX<eraserX+eraserWidth && mouseY>eraserY && mouseY<eraserY+eraserHeight) {
     eraser = 1/100;

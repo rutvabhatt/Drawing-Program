@@ -1,15 +1,16 @@
-Boolean colorBoxXOn = colorBoxYOn = colorBoxWidthOn = colorBoxHeightOn = false;
-Boolean colorBoxX2On = colorBoxY2On = colorBoxWidth2On = colorBoxHeight2On = false;
-Boolean colorBoxX3On = colorBoxY3On = colorBoxWidth3On = colorBoxHeight3On = false;
-Boolean colorBoxX4On = colorBoxY4On = colorBoxWidth4On = colorBoxHeight4On = false;
-Boolean colorBoxX5On = colorBoxY5On = colorBoxWidth5On = colorBoxHeight5On = false;
-Boolean colorBoxX6On = colorBoxY6On = colorBoxWidth6On = colorBoxHeight6On = false;
-Boolean colorBoxX7On = colorBoxY7On = colorBoxWidth7On = colorBoxHeight7On = false;
-Boolean colorBoxX8On = colorBoxY8On = colorBoxWidth8On = colorBoxHeight8On = false;
-Boolean colorBoxX9On = colorBoxY9On = colorBoxWidth9On = colorBoxHeight9On = false;
-Boolean colorBoxX10On = colorBoxY10On = colorBoxWidth10On = colorBoxHeight10On = false;
-Boolean colorBoxX11On = colorBoxY11On = colorBoxWidth11On = colorBoxHeight11On = false;
-Boolean colorBoxX12On = colorBoxY12On = colorBoxWidth12On = colorBoxHeight12On = false;
+//Variables
+Boolean colorBoxXOn , colorBoxYOn , colorBoxWidthOn , colorBoxHeightOn = false;
+Boolean colorBoxX2On , colorBoxY2On , colorBoxWidth2On , colorBoxHeight2On = false;
+Boolean colorBoxX3On , colorBoxY3On , colorBoxWidth3On , colorBoxHeight3On = false;
+Boolean colorBoxX4On , colorBoxY4On , colorBoxWidth4On , colorBoxHeight4On = false;
+Boolean colorBoxX5On , colorBoxY5On , colorBoxWidth5On , colorBoxHeight5On = false;
+Boolean colorBoxX6On , colorBoxY6On , colorBoxWidth6On , colorBoxHeight6On = false;
+Boolean colorBoxX7On , colorBoxY7On , colorBoxWidth7On , colorBoxHeight7On = false;
+Boolean colorBoxX8On , colorBoxY8On , colorBoxWidth8On , colorBoxHeight8On = false;
+Boolean colorBoxX9On , colorBoxY9On , colorBoxWidth9On , colorBoxHeight9On = false;
+Boolean colorBoxX10On , colorBoxY10On , colorBoxWidth10On , colorBoxHeight10On = false;
+Boolean colorBoxX11On , colorBoxY11On , colorBoxWidth11On , colorBoxHeight11On = false;
+Boolean colorBoxX12On , colorBoxY12On , colorBoxWidth12On , colorBoxHeight12On = false;
 //
 void colorPaletteSetup () {
   //Colors:
@@ -130,7 +131,7 @@ void drawColorBoxes () {
   //#11
   fill(coral);
   rect(colorBoxX11, colorBoxY11, colorBoxWidth11, colorBoxHeight11);
-  if (colorBoxX11On = colorBox11On = colorBoxWidt11On = colorBoxHeight11On = false) ink = coral;
+  if (colorBoxX11On = colorBoxY11On = colorBoxWidth11On = colorBoxHeight11On == false) ink = coral;
   //#12
   fill(darkBlue);
   rect(colorBoxX12, colorBoxY12, colorBoxWidth12, colorBoxHeight12);
@@ -139,16 +140,27 @@ void drawColorBoxes () {
 } //End of colorBoxes
 //
 void colorPaletteMousePressed () {
-  if (mouseX>colorBoxX && mouseX<colorBoxX+colorBoxidth && mouseY>colorBoxY && mouseY<colorBoxY+colorBoxHeight) colorBoxXOn = colorBoxYOn = colorBoxWidthOn = colorBoxHeightOn = true; 
+  if (mouseX>colorBoxX && mouseX<colorBoxX+colorBoxWidth && mouseY>colorBoxY && mouseY<colorBoxY+colorBoxHeight) colorBoxXOn = colorBoxYOn = colorBoxWidthOn = colorBoxHeightOn = true; 
   //
-  if (mouseX>colorBoxX2 && mouseX<colorBoxX2+colorBoxidth2 && mouseY>colorBoxY2 && mouseY<colorBoxY2+colorBoxHeight2) colorBoxXOn2 = colorBoxYOn2 = colorBoxWidthOn2 = colorBoxHeightOn2 = true; 
+  if (mouseX>colorBoxX2 && mouseX<colorBoxX2+colorBoxWidth2 && mouseY>colorBoxY2 && mouseY<colorBoxY2+colorBoxHeight2) colorBoxX2On = colorBoxY2On = colorBoxWidth2On = colorBoxHeight2On = true; 
   //
-  if (mouseX>colorBoxX3 && mouseX<colorBoxX3+colorBoxidth3 && mouseY>colorBoxY3 && mouseY<colorBoxY3+colorBoxHeight3) colorBoxXOn3 = colorBoxYOn3 = colorBoxWidthOn3 = colorBoxHeightOn3 = true; 
+  if (mouseX>colorBoxX3 && mouseX<colorBoxX3+colorBoxWidth3 && mouseY>colorBoxY3 && mouseY<colorBoxY3+colorBoxHeight3) colorBoxX3On = colorBoxY3On = colorBoxWidth3On = colorBoxHeight3On = true; 
   //
-  if (mouseX>colorBoxX4 && mouseX<colorBoxX4+colorBoxidth4 && mouseY>colorBoxY4 && mouseY<colorBoxY4+colorBoxHeight4) colorBoxXOn4 = colorBoxYOn4 = colorBoxWidthOn4 = colorBoxHeightOn4 = true; 
+  if (mouseX>colorBoxX4 && mouseX<colorBoxX4+colorBoxWidth4 && mouseY>colorBoxY4 && mouseY<colorBoxY4+colorBoxHeight4) colorBoxX4On = colorBoxY4On = colorBoxWidth4On = colorBoxHeight4On = true; 
   //
-  if (mouseX>colorBoxX5 && mouseX<colorBoxX5+colorBoxidth5 && mouseY>colorBoxY5 && mouseY<colorBoxY5+colorBoxHeight5) colorBoxXOn5 = colorBoxYOn5 = colorBoxWidthOn5 = colorBoxHeightOn5 = true; 
+  if (mouseX>colorBoxX5 && mouseX<colorBoxX5+colorBoxWidth5 && mouseY>colorBoxY5 && mouseY<colorBoxY5+colorBoxHeight5) colorBoxX5On = colorBoxY5On = colorBoxWidth5On = colorBoxHeight5On = true; 
   //
-  if (mouseX>colorBoxX6 && mouseX<colorBoxX6+colorBoxidth6 && mouseY>colorBoxY6 && mouseY<colorBoxY6+colorBoxHeight6) colorBoxXOn6 = colorBoxYOn6 = colorBoxWidthOn6 = colorBoxHeightOn6 = true; 
+  if (mouseX>colorBoxX6 && mouseX<colorBoxX6+colorBoxWidth6 && mouseY>colorBoxY6 && mouseY<colorBoxY6+colorBoxHeight6) colorBoxX6On = colorBoxY6On = colorBoxWidth6On = colorBoxHeight6On = true; 
   //
-}
+  if (mouseX>colorBoxX7 && mouseX<colorBoxX7+colorBoxWidth7 && mouseY>colorBoxY7 && mouseY<colorBoxY7+colorBoxHeight7) colorBoxX7On = colorBoxY7On = colorBoxWidth7On = colorBoxHeight7On = true;
+  //
+  if (mouseX>colorBoxX8 && mouseX<colorBoxX8+colorBoxWidth8 && mouseY>colorBoxY8 && mouseY<colorBoxY8+colorBoxHeight8) colorBoxX8On = colorBoxY8On = colorBoxWidth8On = colorBoxHeight8On = true; 
+  //
+  if (mouseX>colorBoxX9 && mouseX<colorBoxX9+colorBoxWidth9 && mouseY>colorBoxY9 && mouseY<colorBoxY9+colorBoxHeight9) colorBoxX9On = colorBoxY9On = colorBoxWidth9On = colorBoxHeight9On = true; 
+  //
+  if (mouseX>colorBoxX10 && mouseX<colorBoxX10+colorBoxWidth10 && mouseY>colorBoxY10 && mouseY<colorBoxY10+colorBoxHeight10) colorBoxX10On = colorBoxY10On = colorBoxWidth10On = colorBoxHeight10On = true; 
+  //
+  if (mouseX>colorBoxX11 && mouseX<colorBoxX11+colorBoxWidth11 && mouseY>colorBoxY11 && mouseY<colorBoxY11+colorBoxHeight11) colorBoxX11On = colorBoxY11On = colorBoxWidth11On = colorBoxHeight11On = true; 
+  //
+  if (mouseX>colorBoxX12 && mouseX<colorBoxX12+colorBoxWidth12 && mouseY>colorBoxY12 && mouseY<colorBoxY12+colorBoxHeight12) colorBoxX12On = colorBoxY12On = colorBoxWidth12On = colorBoxHeight12On = true; 
+} //End of colorPaletteMousePressed

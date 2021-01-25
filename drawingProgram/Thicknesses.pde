@@ -24,11 +24,19 @@ void lineThicknessesSetup () {
 
 void lineThicknessDraw () {
   fill(black);
-  rect(rectX12, rectY12, rectWidth12, rectHeight12) if (rectX12 = rectY12 = rectWidth12 = rectHeight12 == false) thickness = 1/100;
-  rect(rectX13, rectY13, rectWidth13, rectHeight13) if (rectX13 = rectY13 = rectWidth13 = rectHeight13 == false) thickness = 1/200;
-  rect(rectX14, rectY14, rectWidth14, rectHeight14) if (rectX14 = rectY14 = rectWidth14 = rectHeight14 == false) thickness = 1/300;
+  rect(rectX12, rectY12, rectWidth12, rectHeight12); 
+  if (rectX12, rectY12, rectWidth12+rectHeight12 = false); 
+    thickness = 1/100;
+  //
+  rect(rectX13, rectY13, rectWidth13, rectHeight13); 
+  if (rectX13, rectY13, rectWidth13+rectHeight13 = false); 
+    thickness = 1/200;
+  //
+  rect(rectX14, rectY14, rectWidth14, rectHeight14); 
+  if (rectX14, rectY14, rectWidth14+rectHeight14 = false);
+    thickness = 1/300;
+  //
 }
-
 
 void lineThicknessMousePressed () {
   if (mouseX>thicknessX && mouseX<thicknessX+thicknessWidth && mouseY>thicknessY && mouseY<thicknessY+thicknessHeight) {

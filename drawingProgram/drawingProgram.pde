@@ -17,7 +17,6 @@ color darkBlue = #2B32E0;//#12
 //
 int rectX, rectY, rectWidth, rectHeight, outside;
 Boolean draw = false;
-Boolean 
 PImage picX, picY, picWidth, picHeight;
 PImage picsX2, picY2, picWidth2, picHeight2;
 //
@@ -140,5 +139,6 @@ void mousePressed() {
     } else {
       draw = false;
     }
+  }
    //
 }//End mousePressed
