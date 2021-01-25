@@ -35,7 +35,7 @@ void lineThicknessDraw () {
   rect(rectX14, rectY14, rectWidth14, rectHeight14); 
   if (rectX14, rectY14, rectWidth14+rectHeight14 = false);
     thickness = 1/300;
-  //
+//
 }
 
 void lineThicknessMousePressed () {

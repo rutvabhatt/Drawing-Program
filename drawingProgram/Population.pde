@@ -56,7 +56,4 @@ void population () {
   playPauseX = width*9/11 ;
   playPauseY = height*6/9 ;
   playPauseDiameter = height/5 ;
-  
-
-  
 }
