@@ -2,30 +2,14 @@ int eraser, eraserX, eraserY, eraserWidth, eraserHeight;
 int eraserX2, eraserY2, eraserWidth2, eraserHeight2;
 int eraserX3, eraserY3, eraserWidth3, eraserHeight3;
 
-void eraserSetup () {
-  //eraserThicknesses
-  //#1
-  rectX9 = width*12/20 ;
-  rectY9 = height*3/30 ;
-  rectWidth9 = width*1/10 ;
-  rectHeight9 = height*1/10 ;
-
-  //#2
-  rectX10 = width*13/20 ;
-  rectY10 = height*3/30 ;
-  rectWidth10 = width*2/10 ;
-  rectHeight10 = height*2/10 ;
-
-  //#3
-  rectX11 = width*14/20 ;
-  rectY11 = height*3/30 ;
-  rectWidth11 = width*3/10 ;
-  rectHeight11 = height*3/10 ;
-}
 void eraserDraw () {
   fill(white);
   rect(rectX9, rectY9, rectWidth9, rectHeight9);
+  //
+  fill(white);
   rect(rectX10, rectY10, rectWidth10, rectHeight10);
+  //
+  fill(white);
   rect(rectX11, rectY11, rectWidth11, rectHeight11);
 }
 //

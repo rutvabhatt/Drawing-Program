@@ -3,6 +3,7 @@ void reset() {
 }
 
 void resetPressed() {
-  if (rectX2, rectY2+rectWidth2+rectHeight2);
+  if ( mouseX>rectX2 && mouseX<rectX2+rectWidth2 && mouseY>rectY2 && mouseY<rectY2+rectHeight2 );
+    
   
 }
